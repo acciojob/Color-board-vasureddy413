@@ -1,1 +1,29 @@
-/*  your css code here. If applicable */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  gap: 2px;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  background: #1d1d1d;
+  transition: background 1s ease, box-shadow 1s ease;
+}
